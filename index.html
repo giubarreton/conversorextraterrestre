@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <title>Imersão Dev Alura - Aula 02</title>
+  <meta name="description" content="Converter">
+  
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de peso extraterrestre <br>
+    </h1>
+    <p class="page-subtitle">
+      Descubra qual seria o seu peso (em kgs) se você aterrisasse na lua ou em outro planeta do nosso sistema solar.</p><br>
+
+    <label for="kilos">Quantos kilos gostaria de converter?</label><br><br>
+    <input type="number" id="weightEarth" size="2" /><br><br>
+
+    <label for="planet">Qual o seu destino?</label><br><br>
+
+    <input type="button" onmouseover="changeColor()" value="Lua" onmouseout="changeColor2()" button type=" description" onclick="convertMoon()" id="weightMoon" </button>
+    <input type="button" onmouseover="changeColor3()" value="Mercúrio" onmouseout="changeColor4()" button type="descripion" onclick="convertMercury()" id="weightMercury" </button>
+    <input type="button" onmouseover="changeColor5()" value="Vênus" onmouseout="changeColor6()" button type=" description" onclick="convertVenus()" id="weightVenus" </button>
+    <input type="button" onmouseover="changeColor7()" value="Marte" onmouseout="changeColor8()" button type="description" onclick="convertMars()" id="weightMars" </button>
+    <input type="button" onmouseover="changeColor9()" value="Júpiter" onmouseout="changeColor10()" button type=" description" onclick="convertJupiter()" id="weightJupiter" </button>
+    <input type="button" onmouseover="changeColor11()" value="Saturno" onmouseout="changeColor12()" button type="description" onclick="convertSaturn()" id="weightSaturn" </button>
+    <input type="button" onmouseover="changeColor13()" value="Urano" onmouseout="changeColor14()" button type="description" onclick="convertUranus()" id="weightUranus" </button>
+    <input type="button" onmouseover="changeColor15()" value="Netuno" onmouseout="changeColor16()" button type="description" onclick="convertNeptune()" id="weightNeptune" </button>
+
+    <h2 id="convertedWeight"></h2>
+
+    <script src="app.js"></script>
+
+  </div>
+</body>
+
+</html>
+
